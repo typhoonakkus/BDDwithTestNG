@@ -9,3 +9,5 @@ Test automation with bdd structure using TestNG
 6. Sistem değişkenlerine MAVEN_HOME ekle (C:\Program Files\Apache\Maven\apache-maven-3.x.x)
 7. Sistem değişkenlerinde path değişkenine %MAVEN_HOME%\bin ekle
 8. Projede sağ üstteki Maven ikonunda reload all maven projects tıkla.
+9. Test run komutu : mvn clean test -DbaseURL=https://test.domain.com (CI\CD de yeni oluşan ortamı buaraya run time da alabilmek için baseURL CLI dan parametrik verdim)
+10. Rapor için allure kurulumu gereklidir. Run komutu "allure serve target/allure-results" 
