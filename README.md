@@ -12,5 +12,5 @@ Test automation with bdd structure using TestNG
 9. Test run komutu : mvn clean test -DbaseURL=https://test.domain.com (CI\CD de yeni oluşan ortamı buaraya run time da alabilmek için baseURL CLI dan parametrik verdim)
 10. Rapor için allure kurulumu gereklidir. Run komutu "allure serve target/allure-results" 
 11. Testler bu komut ile otomatik rapor generate ederek çalışır;
-        mvn clean verify -Dtest=Runner "-Dcucumber.filter.tags=@Smoke" -DbaseURL=https://testcuzdan.junomoney.com.tr
+        mvn clean verify -Dtest=Runner "-Dcucumber.filter.tags=@Smoke" -DbaseURL=https://testdomain.com.tr
 12. raporu açmak için ;  allure open target/allure-report
